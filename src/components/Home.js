@@ -20,14 +20,11 @@ const Home = () => {
                     </CardContent>
                     <Divider />
                     <CardActions style={{ color: 'mediumblue' }}>
-                        <Link to={`/car/${car.id}`}>
-                        <a>See more Details</a>
-                        </Link>
+                        <Link to={`/car/${car.id}`}>See More Details</Link>
                     </CardActions>
                 </Card>
             ))}
         </div>
     )
 }
-
 export default Home
